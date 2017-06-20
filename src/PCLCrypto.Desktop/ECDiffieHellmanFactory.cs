@@ -12,12 +12,12 @@ namespace PCLCrypto
     /// <summary>
     /// The desktop and other .NET platforms implementation of <see cref="IECDiffieHellmanFactory"/>.
     /// </summary>
-    internal class ECDiffieHellmanFactory : IECDiffieHellmanFactory
+    /*internal class ECDiffieHellmanFactory : IECDiffieHellmanFactory
     {
         /// <inheritdoc />
         public IECDiffieHellman Create()
         {
             return new ECDiffieHellman(Platform.ECDiffieHellman.Create());
         }
-    }
+    }*/
 }

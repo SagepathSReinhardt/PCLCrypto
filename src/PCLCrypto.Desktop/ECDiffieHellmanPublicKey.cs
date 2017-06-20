@@ -13,7 +13,7 @@ namespace PCLCrypto
     /// <summary>
     /// A .NET implementation of the <see cref="IECDiffieHellmanPublicKey"/> interface.
     /// </summary>
-    internal class ECDiffieHellmanPublicKey : IECDiffieHellmanPublicKey
+    /*internal class ECDiffieHellmanPublicKey : IECDiffieHellmanPublicKey
     {
         private readonly Platform.ECDiffieHellmanPublicKey publicKey;
 
@@ -35,5 +35,5 @@ namespace PCLCrypto
 
         /// <inheritdoc />
         public byte[] ToByteArray() => this.publicKey.ToByteArray();
-    }
+    }*/
 }

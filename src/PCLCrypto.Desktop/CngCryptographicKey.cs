@@ -82,10 +82,12 @@ namespace PCLCrypto
         /// <inheritdoc />
         protected internal override byte[] Sign(byte[] data)
         {
-            using (var cng = new ECDsaCng(this.key))
-            {
-                return cng.SignData(data);
-            }
+            throw new NotImplementedException();
+            //using (var cng = new ECDsaCng(this.key))
+            //{
+            //    
+            //    return cng.SignData(data);
+            //}
         }
 
         /// <inheritdoc />
@@ -100,10 +102,11 @@ namespace PCLCrypto
         /// <inheritdoc />
         protected internal override bool VerifySignature(byte[] data, byte[] signature)
         {
-            using (var cng = new ECDsaCng(this.key))
-            {
-                return cng.VerifyData(data, signature);
-            }
+            throw new NotImplementedException();
+            //using (var cng = new ECDsaCng(this.key))
+            //{
+            //    return cng.VerifyData(data, signature);
+            //}
         }
 
         /// <inheritdoc />

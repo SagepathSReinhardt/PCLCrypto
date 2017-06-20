@@ -67,7 +67,8 @@ namespace PCLCrypto
 #if PCL
                 throw new NotImplementedByReferenceAssemblyException();
 #elif !SILVERLIGHT
-                return new ECDiffieHellmanFactory();
+                throw new NotSupportedException();
+                //return new ECDiffieHellmanFactory();
 #else
                 throw new NotSupportedException();
 #endif
@@ -84,7 +85,8 @@ namespace PCLCrypto
 #if PCL
                 throw new NotImplementedByReferenceAssemblyException();
 #elif !SILVERLIGHT
-                return new ECDiffieHellmanCngPublicKeyFactory();
+                throw new NotSupportedException();
+                //return new ECDiffieHellmanCngPublicKeyFactory();
 #else
                 throw new NotSupportedException();
 #endif

@@ -10,7 +10,7 @@ namespace PCLCrypto
     /// <summary>
     /// A .NET implementation of the <see cref="IECDiffieHellman"/> interface.
     /// </summary>
-    internal class ECDiffieHellman : IECDiffieHellman
+    /*internal class ECDiffieHellman : IECDiffieHellman
     {
         /// <summary>
         /// The .NET algorithm backing this instance.
@@ -74,5 +74,5 @@ namespace PCLCrypto
         {
             this.platformAlgorithm.Dispose();
         }
-    }
+    }*/
 }

@@ -13,7 +13,7 @@ namespace PCLCrypto
     /// <summary>
     /// The .NET implementation of <see cref="IECDiffieHellmanCngPublicKeyFactory"/>.
     /// </summary>
-    internal class ECDiffieHellmanCngPublicKeyFactory : IECDiffieHellmanCngPublicKeyFactory
+    /*internal class ECDiffieHellmanCngPublicKeyFactory : IECDiffieHellmanCngPublicKeyFactory
     {
         /// <inheritdoc />
         public IECDiffieHellmanPublicKey FromByteArray(byte[] publicKey)
@@ -23,5 +23,5 @@ namespace PCLCrypto
             return new ECDiffieHellmanPublicKey(
                 Platform.ECDiffieHellmanCngPublicKey.FromByteArray(publicKey, Platform.CngKeyBlobFormat.EccPublicBlob));
         }
-    }
+    }*/
 }
